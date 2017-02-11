@@ -9,7 +9,7 @@ npm install
 ```
 
 
-### run for development.
+### Run for development.
 
 ```
 npm run serve
