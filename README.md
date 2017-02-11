@@ -1,7 +1,7 @@
 # nodejs-es6-boilerplate
 
 
-### Install stuff.
+### Install stuff
 
 ```
 npm install
@@ -9,7 +9,7 @@ npm install
 ```
 
 
-### Run for development.
+### Run for development
 
 ```
 npm run serve
@@ -29,7 +29,7 @@ npm run build
 This will generate the `/build` directory, thats the production code.
 
 
-### Test production.
+### Test production
 
 ```
 npm run production
