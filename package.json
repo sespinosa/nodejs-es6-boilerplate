@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-es6-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for nodejs using es6",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel code/ -d build/ --source-maps",
+    "serve": "nodemon code/index.js --exec babel-node",
+    "production": "babel code/ -d build/ && node build/index.js"
+  },
+  "author": "Sebastián Espinosa <sebastian@clevermachine.cl>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sespinosa/nodejs-es6-boilerplate.git"
+  },
+  "keywords": [
+    "es6",
+    "nodejs",
+    "babel"
+  ],
+  "bugs": {
+    "url": "https://github.com/sespinosa/nodejs-es6-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sespinosa/nodejs-es6-boilerplate#readme"
+}
