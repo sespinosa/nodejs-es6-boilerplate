@@ -39,4 +39,4 @@ This will run the code of the `/build` folder (thats the code generated after tr
 
 
 
-### the es6 code should be placed on the code folder!
+The es6 code should be placed on the code folder!
