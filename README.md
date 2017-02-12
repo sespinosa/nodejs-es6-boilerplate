@@ -36,3 +36,7 @@ npm run production
 ```
 
 This will run the code of the `/build` folder (thats the code generated after traspiling).
+
+
+
+### the es6 code should be placed on the code folder!
